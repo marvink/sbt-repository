@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>net.koofr</groupId>
+    <artifactId>play2-sprites</artifactId>
+    <packaging>jar</packaging>
+    <description>play2-sprites</description>
+    <version>0.5.0</version>
+    <name>play2-sprites</name>
+    <organization>
+        <name>net.koofr</name>
+    </organization>
+    <url>https://github.com/koofr/play2-sprites</url>
+    <licenses>
+        <license>
+            <name>MIT</name>
+            <url>http://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/koofr/play2-sprites.git</url>
+    </scm>
+    <developers>
+        <developer>
+            <id>bancek</id>
+            <name>Luka Zakrajsek</name>
+        </developer>
+        <developer>
+            <id>edofic</id>
+            <name>Andraz Bajt</name>
+        </developer>
+    </developers>
+    <properties>
+        <sbtVersion>0.13</sbtVersion>
+        <scalaVersion>2.10</scalaVersion>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>2.10.4</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-sbt</groupId>
+            <artifactId>sbt</artifactId>
+            <version>0.13.0</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+</project>
