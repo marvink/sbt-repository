@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
-	<info organisation="net.koofr" module="play2-sprites" revision="0.6.0" status="release" publication="20141003103555" e:scalaVersion="2.10" e:sbtVersion="0.13">
+	<info organisation="net.koofr" module="play2-sprites" revision="0.6.0" status="release" publication="20141003104301" e:scalaVersion="2.10" e:sbtVersion="0.13">
 		<description>
 		play2-sprites
 		</description>
